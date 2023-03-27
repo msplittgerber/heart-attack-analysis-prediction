@@ -19,6 +19,7 @@ In this project, different models from classical statistics and machine learning
 The project contains a jupyter notebook with all code that has been used for analyses and a copy of the kaggle dataset.
 
 ## Results <a name="results"></a>
+With the exception of the decision tree, all models perform about equally well. For Random Forest and SVM, the differences between Precision and Recall are greater than for logistic regression. It hardly makes a difference whether the missing values were imputed or whether cases with missing values were excluded from the analysis (this can be explained by the small number of cases with missing values).
 
 ## Licensing, Authors, Acknowledgements<a name="licensing"></a>
 You can find the Licensing for the data and other descriptive information at the Kaggle link available [here](https://www.kaggle.com/datasets/rashikrahmanpritom/heart-attack-analysis-prediction-dataset) as well as at the UCI Machine Learning Repository [here](https://archive.ics.uci.edu/ml/datasets/Heart+Disease).
