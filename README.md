@@ -1,4 +1,5 @@
 # heart-attack-analysis-prediction
+
 ### Table of Contents
 
 1. [Installation](#installation)
@@ -14,6 +15,7 @@ The code can be run using Python versions 3.* and all necessary libraries.
 ## Project Description <a name="project"></a>
 
 In this project, different models from classical statistics and machine learning are used to predict the occurrence of heart disease (narrowing of the coronary arteries). Various demographic variables and health status parameters were used as predictors. First, the data set was read in and preprocessed. This was followed by the construction of various prediction models: 1. logistic regression, 2. support vector machines, 3. decision tree, 4. random forest. Finally, the model quality of the different approaches was compared. An overview of the steps used can be found below. The dataset used comes from the UCI Machine Learning Repository and was prepared and made available by David W. Aha. It is also located in various places on Kaggle, which is where it was obtained for this project (Kaggle dataset ). The original dataset contained 75 variables (created in 1988). Based on this, a data set with 14 variables was extracted, which has already been the basis of various publications and machine learning approaches and was also used for this project.
+For the related blog post on Medium click [here](https://medium.com/@maike.splittgerber/heart-attack-analysis-and-prediction-exploring-medical-records-with-machine-learning-109a3e60dbba)
 
 ## File Descriptions <a name="files"></a>
 The project contains a jupyter notebook with all code that has been used for analyses and a copy of the kaggle dataset.
